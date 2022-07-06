@@ -15,7 +15,7 @@
 	<name>ServerDetails</name>
 	<description>project for use case of server details</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
