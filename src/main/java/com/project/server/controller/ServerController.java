@@ -22,6 +22,12 @@ public class ServerController {
 	@Autowired
 	private ServerService service;
 
+    // end point for to show CI-CD pipeline example
+    @GetMapping("/welcome")
+    public String welcome(){
+        return "Hello welcome to CI-CD sample application";
+    }
+
 	// end point to get all the servers
 	@GetMapping("/")
 	public ModelAndView getAllServers() {
